@@ -13,11 +13,11 @@ Create a new git repository and write code to fulfill the brief to the best of y
 ### Progress
 
 - [x] Initialise app and start server
-- [ ] Write feature tests for storing key/value
-- [ ] Pass feature tests
+- [x] Write feature tests for storing key/value
+- [x] Pass feature tests
 - [ ] Write feature tests for returning value
 - [ ] Pass final feature test
 
 ### Additional feature
 
-- [ ] Save params data to file 
+- [ ] Save params data to file
