@@ -8,7 +8,7 @@ You receive a message from a prospective employer:
 
 If you finish, you can work on saving the data to a file."
 
-Create a new git repository and write code to fulfill the brief to the best of your ability. Store the data in memory, not in a database, but bear in mind that you will later need to add a database to this code.
+Create a new git repository and write code to fulfil the brief to the best of your ability. Store the data in memory, not in a database, but bear in mind that you will later need to add a database to this code.
 
 ### Progress
 
@@ -18,6 +18,12 @@ Create a new git repository and write code to fulfill the brief to the best of y
 - [x] Write feature tests for returning value
 - [x] Pass final feature test
 
-### Additional feature
+### Running the server
 
-- [ ] Save params data to file
+```
+$ git clone https://github.com/andygjenkins/server_tt.git
+$ cd server_tt
+$ bundle
+$ ruby app.rb
+
+```
