@@ -10,14 +10,13 @@ class Server < Sinatra::Base
     'Hello from Mr Server!'
   end
 
-
   get '/set' do
     data_store.merge!(params)
     'Data Stored!'
   end
 
   get '/get' do
-
+    data_store[params[:key]]
   end
 
   # start the server if ruby file executed directly

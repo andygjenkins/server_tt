@@ -15,8 +15,8 @@ Create a new git repository and write code to fulfill the brief to the best of y
 - [x] Initialise app and start server
 - [x] Write feature tests for storing key/value
 - [x] Pass feature tests
-- [ ] Write feature tests for returning value
-- [ ] Pass final feature test
+- [x] Write feature tests for returning value
+- [x] Pass final feature test
 
 ### Additional feature
 

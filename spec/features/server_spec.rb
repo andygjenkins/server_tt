@@ -10,7 +10,15 @@ end
 
 feature 'storing params' do
   scenario 'page suggests data is stored' do
-  visit '/set?key=value'
-  expect(page).to have_content('Data Stored!')
+    visit '/set?key=value'
+    expect(page).to have_content('Data Stored!')
+  end
+end
+
+feature 'returning values' do
+  scenario 'return value that matches key' do
+    visit '/set?key=value'
+    visit '/get?key=key'
+    expect(page).to have_content('value')
   end
 end
